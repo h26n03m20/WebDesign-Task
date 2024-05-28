@@ -3,11 +3,8 @@ body{
     /* background-color:#fffeee; */
     background-color: #6495ED;
     font-family: "BIZ UDゴシック", "HGP創英ﾌﾟﾚｾﾞﾝｽEB", serif;
-    background-image: url(img/bg-img.jpg);
-    background-size: cover;
-    background-size: contain;
 }
-li, td{
+td{
         font-size: 20px;
 }
 
@@ -21,9 +18,6 @@ table, th, td{
 }
 th, td{
     padding: 0px;
-}
-ul{
-    margin: 0px;
 }
 img{
     width: 100%;
