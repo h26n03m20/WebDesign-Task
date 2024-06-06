@@ -1,4 +1,10 @@
 @charset "utf-8";
-body{
+a {
     font-size: 0.7rem;
+}
+div{
+    margin-bottom: 20px;
+}
+input[type]{
+    margin-right: 0.5rem;
 }
