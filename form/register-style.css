@@ -1,3 +1,9 @@
 button{
     width: 12em;
 }
+div{
+    margin-bottom: 7px;
+}
+span{
+    color: red;
+}
