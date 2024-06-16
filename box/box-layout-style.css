@@ -1,0 +1,129 @@
+h1 {
+    font-size: 20px;
+}
+h2{
+    width: 90%;
+}
+p{
+    width: 90%;
+}
+
+/* box1 */
+.box1{
+    background-color: white;
+    height: 70%;
+    width: 95%;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: stretch;
+    display: flex;
+}
+.item1{
+    width: 25%;
+    height: 70%;
+    padding: 10px;
+    margin: 10px;
+    background-color: lemonchiffon;
+    text-align: center;
+}
+
+/* box2 */
+.box2{
+    background-color: white;
+    height: 70%;
+    width: 95%;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: stretch;
+    display: flex;
+}
+.item2{
+    width: 25%;
+    height: 70%;
+    padding: 10px;
+    margin: 10px;
+    background-color: lemonchiffon;
+    text-align: center;
+}
+
+/* ボタン */
+.button{
+    padding: 10px;
+    border-radius: 12px;
+    background-color: #2ecadf;
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+}
+
+/* うさぎドロップ */
+.bunny_drop{
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+}
+.bunny_drop img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+/* ミステリと言う勿れ */
+.mystery{
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+}
+.mystery img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+/* ランウェイで笑って */
+.rumway{
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+}
+.rumway img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+/* 一週間フレンズ */
+.friends{
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+}
+.friends img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+/* 夏目友人帳 */
+.natsume{
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+}
+.natsume img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+/* 溺れるナイフ */
+.oborerunaifu{
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+}
+.oborerunaifu img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
