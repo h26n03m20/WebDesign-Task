@@ -13,43 +13,44 @@
     <form action="#" method="post">
         <!-- ID(メールアドレス) -->
         <div>
-            ID(メールアドレス)<span>*</span>：<input type="email" size="30" value="例：xxx@morijyobi.ac.jp" required>
+            ID(メールアドレス)<span>*</span>：<input type="email" name="email" size="30" value="例：xxx@morijyobi.ac.jp" required>
         </div><br>
 
         <!-- パスワード -->
         <div>
-            パスワード<span>*</span>：<label><input type="password" size="30" minlength="8" required>
-                <input type="checkbox">パスワードを表示する</label>
+            パスワード<span>*</span>：<label for="password"></label><input type="password" name="password" size="30"
+                minlength="8" id="password" required>
+            <input type="checkbox" id="password">パスワードを表示する
         </div><br>
 
         <!-- 氏名 -->
         <div>
-            氏名<span>*</span>：<input type="text" placeholder="姓(例：盛岡)" required>
-            <input type="text" placeholder="名(例：太郎)" required>
+            氏名<span>*</span>：<input type="text" name="lastname" placeholder="姓(例：盛岡)" required>
+            <input type="text" name="firstname" placeholder="名(例：太郎)" required>
         </div><br>
 
         <!-- 住所 -->
         <div>
-            住所：〒<input type="text" size="8" value="020-0021" disabled><br>
-            　　：<input type="text" size="20" value="岩手県盛岡市中央通3丁目" disabled><br>
-            　　：<input type="text" size="20" value="番地"><br>
-            　　：<input type="text" size="30" value="建物名">
+            住所：〒<input type="text" name="address1" size="8" value="020-0021" disabled><br>
+            　　：<input type="text" name="address2" size="20" value="岩手県盛岡市中央通3丁目" disabled><br>
+            　　：<input type="text" name="address3" size="20" value="番地"><br>
+            　　：<input type="text" name="address4" size="30" value="建物名">
         </div><br>
 
         <!-- 携帯電話番号 -->
         <div>
-            携帯電話番号<span>*</span>：<input type="tel" size="20" required>
+            携帯電話番号<span>*</span>：<input type="tel" name="tel" size="20" required>
         </div><br>
 
         <!-- 学科・学年 -->
         <div>
-            学科・学年<span>*</span>：<select name="course" value="学科" required>
+            学科・学年<span>*</span>：<select name="course" required>
                 <option value="0">学科を選択してください</option>
                 <option value="1">システム系学科</option>
                 <option value="2">ビジネス系学科</option>
                 <option value="3">デザイン系学科</option>
             </select>
-            <select name="grade" value="学年" required>
+            <select name="grade" required>
                 <option value="0">学年を選択してください</option>
                 <option value="1">1年</option>
                 <option value="2">2年</option>
@@ -60,16 +61,16 @@
 
         <!-- お得な情報・クーポン -->
         <div>
-            お得な情報・クーポン<span>*</span>：<label><input type="radio" required>受け取る</label>
-            <label><input type="radio" required>受け取らない</label>
+            お得な情報・クーポン<span>*</span>：<label><input type="radio" name="coupon" value="yes" required>受け取る</label>
+            <label><input type="radio" name="coupon" value="no" required>受け取らない</label>
         </div><br>
 
         <!-- ご意見・ご要望 -->
-        <textarea cols="50" rows="10" maxlength="200">ご意見・ご要望(200字以内でご記入ください)</textarea><br>
+        <textarea cols="50" name="opinion" rows="10" maxlength="200">ご意見・ご要望(200字以内でご記入ください)</textarea><br>
 
         <!-- クリア・送信ボタン -->
-        <button type="reset">入力内容をクリアする</button>
-        <button type="submit">送信</button>
+        <button type="reset" name="clear">入力内容をクリアする</button>
+        <button type="submit" name="send">送信</button>
 
 </body>
 
